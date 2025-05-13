@@ -13,7 +13,7 @@ public class Agenda {
     public void buscarPorNombre(String nombre){
         List<Contacto> resultado = new ArrayList<>();
         for(Contacto c : contactos){
-            if(c.getNombre().toLowerCase().contains(nombre)){
+            if(c.getNombre().toLowerCase().contains(nombre.toLowerCase())){
                 resultado.add(c);
             }
         }
