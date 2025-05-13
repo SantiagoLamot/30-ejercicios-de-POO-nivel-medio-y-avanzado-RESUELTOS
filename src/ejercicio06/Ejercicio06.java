@@ -4,6 +4,10 @@
  */
 public class Ejercicio06 {
     public static void main(String[] args) {
-        // Implementar aquí la solución
+        Figura f1 = new Rectangulo(4.0, 3.0);
+        Figura f2 = new Circulo(5.0);
+
+        System.out.println(f1);
+        System.out.println(f2);
     }
 }
